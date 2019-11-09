@@ -1,0 +1,2 @@
+- run sarizip.sh
+- upload created .zip file as theme into wordpress 

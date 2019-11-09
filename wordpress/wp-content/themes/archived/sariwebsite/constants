@@ -1,0 +1,2 @@
+var clientId = '976541012474-62vjogq0v0qlnut331bl9vq57lgcv49v.apps.googleusercontent.com'; //choose web app client Id, redirect URI and Javascript origin set to http://localhost
+var apiKey = 'AIzaSyB8QPPR3rH-xXQVDC-JLb7WtMl8QyHXId8'; //choose public apiKey, any IP allowed (leave blank the allowed IP boxes in Google Dev Console)

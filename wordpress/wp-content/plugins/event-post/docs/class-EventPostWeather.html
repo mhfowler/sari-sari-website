@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="stylesheet" href="resources/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/style.css">
+
+        <title>
+            Class EventPostWeather
+        </title>
+    </head>
+
+    <body>
+<div id="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">
+                                Overview
+                            </a>
+                        </li>
+
+                            <li>
+                                <a href="classes.html">Classes</a>
+                            </li>
+
+
+
+                            <li>
+                                <a href="functions.html">Functions</a>
+                            </li>
+
+
+                    </ul>
+
+                    <form id="search" class="pull-right">
+                        <input type="text" name="q" class="form-control text" placeholder="Search class, function or namespace" autofocus>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+            <div id="breadcrumbs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+<div class="pull-left type">
+    <span class="label label-success">Class</span>
+</div>
+
+<ol class="breadcrumb pull-left">
+        <li>
+            <a href="namespace-.html"></a>
+        </li>
+
+        <li class="backslash">\</li>
+        <li class="active">EventPostWeather</li>
+</ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+    <h1>EventPostWeather</h1>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Provides weather support thanks to OpenWeatherMap
+http://openweathermap.org
+
+License: Creative Commons (cc-by-sa)
+http://creativecommons.org/licenses/by-sa/2.0/.
+
+
+Get an API key
+http://openweathermap.org/appid#get
+            </div>
+        </div>
+
+
+
+
+    <div class="info">
+        
+
+            <a href="source-class-EventPostWeather.html" class="open-source-code">Open source code</a>
+        <br>
+    </div>
+
+        <table class="summary table table-bordered table-responsive table-striped" id="methods">
+            <tr><th colspan="3">Methods Summary</th></tr>
+
+
+
+<tr id="___construct">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#___construct">#</a>
+            <code><a href="source-class-EventPostWeather.html#25-31">__construct</a>( )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_EventPostWeather">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_EventPostWeather">#</a>
+            <code><a href="source-class-EventPostWeather.html#36-38">EventPostWeather</a>( )</code>
+
+            <div class="description">
+                PHP4 constructor
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_localize">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_localize">#</a>
+            <code><a href="source-class-EventPostWeather.html#55-66">localize</a>( )</code>
+
+            <div class="description">
+                Only for localization
+
+available values:
+
+- clear sky
+- few clouds
+- scattered clouds
+- broken clouds
+- shower rain
+- rain
+- thunderstorm
+- snow
+- mist
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_settings">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_settings">#</a>
+            <code><a href="source-class-EventPostWeather.html#73-86">get_settings</a>( <span> array <span class="property-name">&amp; $ep_settings</span> </span>, <span> bool <span class="property-name">&amp; $reg_settings</span> </span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_settings_form">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_settings_form">#</a>
+            <code><a href="source-class-EventPostWeather.html#92-145">settings_form</a>( <span> \type <span class="property-name">$ep_settings</span> </span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_init">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_init">#</a>
+            <code><a href="source-class-EventPostWeather.html#152-178">init</a>( <span> object <span class="property-name">$EP</span> </span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_params">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_params">#</a>
+            <code><a href="source-class-EventPostWeather.html#185-188">params</a>( <span> array <span class="property-name">$params</span> = <span class="php-keyword1">array</span> ( )</span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_retreive">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_retreive">#</a>
+            <code><a href="source-class-EventPostWeather.html#195-198">retreive</a>( <span> \WP_Post <span class="property-name">$event</span> </span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_scheme_entities">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_scheme_entities">#</a>
+            <code><a href="source-class-EventPostWeather.html#205-208">scheme_entities</a>( <span> array <span class="property-name">$attr</span> = <span class="php-keyword1">array</span> ( )</span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_scheme_values">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_scheme_values">#</a>
+            <code><a href="source-class-EventPostWeather.html#215-218">scheme_values</a>( <span> array <span class="property-name">$values</span> = <span class="php-keyword1">array</span> ( )</span>, <span> <span class="property-name">$post</span> = <span class="php-keyword1">NULL</span></span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_default_shema">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_default_shema">#</a>
+            <code><a href="source-class-EventPostWeather.html#225-228">default_shema</a>( <span> array <span class="property-name">$schema</span> </span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_single">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_single">#</a>
+            <code><a href="source-class-EventPostWeather.html#230-232">get_single</a>( <span> <span class="property-name">$event_datas</span> </span>, <span> <span class="property-name">$post</span> = <span class="php-keyword1">NULL</span></span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_weather_icons">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_weather_icons">#</a>
+            <code><a href="source-class-EventPostWeather.html#238-248">get_weather_icons</a>( <span> <span class="property-name">$weather</span> </span> )</code>
+
+            <div class="description">
+                From here, methods intends to get datas
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_weather_item">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_weather_item">#</a>
+            <code><a href="source-class-EventPostWeather.html#254-262">get_weather_item</a>( <span> object <span class="property-name">$item</span> </span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_weather">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_weather">#</a>
+            <code><a href="source-class-EventPostWeather.html#269-310">get_weather</a>( <span> \type <span class="property-name">$post</span> = <span class="php-keyword1">NULL</span></span>, <span> <span class="property-name">$echo</span> = <span class="php-keyword1">false</span></span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_weather_datas">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_weather_datas">#</a>
+            <code><a href="source-class-EventPostWeather.html#317-354">get_weather_datas</a>( <span> \type <span class="property-name">$event</span> </span> )</code>
+
+            <div class="description">
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_url">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_url">#</a>
+            <code><a href="source-class-EventPostWeather.html#363-367">get_url</a>( <span> \type <span class="property-name">$method</span> = <span class="php-quote">'weather'</span></span>, <span> \type <span class="property-name">$params</span> = <span class="php-keyword1">array</span> ( )</span> )</code>
+
+            <div class="description">
+                Generates the URL to call the API
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_current">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_current">#</a>
+            <code><a href="source-class-EventPostWeather.html#390-402">get_current</a>( <span> \type <span class="property-name">$event</span> </span> )</code>
+
+            <div class="description">
+                ### current
+http://api.openweathermap.org/data/2.5/weather?lat={lat}&amp;lon={lon}&amp;APPID=XXXX
+
+return:
+
+{"coord":{"lon":139,"lat":35},
+"sys":{"country":"JP","sunrise":1369769524,"sunset":1369821049},
+"weather":[{"id":804,"main":"clouds","description":"overcast clouds","icon":"04n"}],
+"main":{"temp":289.5,"humidity":89,"pressure":1013,"temp_min":287.04,"temp_max":292.04},
+"wind":{"speed":7.31,"deg":187.002},
+"rain":{"3h":0},
+"clouds":{"all":92},
+"dt":1369824698,
+"id":1851632,
+"name":"Shuzenji",
+"cod":200}
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_forecast">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_forecast">#</a>
+            <code><a href="source-class-EventPostWeather.html#437-449">get_forecast</a>( <span> \type <span class="property-name">$event</span> </span> )</code>
+
+            <div class="description">
+                ### forecast
+api.openweathermap.org/data/2.5/forecast?lat={lat}&amp;lon={lon}&amp;APPID=XXXX
+
+return:
+
+{"city":{"id":1851632,"name":"Shuzenji",
+"coord":{"lon":138.933334,"lat":34.966671},
+"country":"JP",
+"cod":"200",
+"message":0.0045,
+"cnt":38,
+"list":[{
+"dt":1406106000,
+"main":{
+"temp":298.77,
+"temp_min":298.77,
+"temp_max":298.774,
+"pressure":1005.93,
+"sea_level":1018.18,
+"grnd_level":1005.93,
+"humidity":87
+"temp_kf":0.26},
+"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],
+"clouds":{"all":88},
+"wind":{"speed":5.71,"deg":229.501},
+"sys":{"pod":"d"},
+"dt_txt":"2014-07-23 09:00:00"}
+]}
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+
+
+
+<tr id="_get_history">
+
+    <td class="attributes col-md-1">
+        <code class="keyword">
+                 public 
+                
+                
+        </code>
+    </td>
+
+    <td class="name">
+        <div>
+            <a class="anchor pull-right" href="#_get_history">#</a>
+            <code><a href="source-class-EventPostWeather.html#476-492">get_history</a>( <span> \type <span class="property-name">$event</span> </span> )</code>
+
+            <div class="description">
+                ### history
+http://api.openweathermap.org/data/2.5/history/city?lat={lat}&amp;lon={lon}&amp;type=hour&amp;start={start}&amp;end={end}&amp;APPID=XXXX
+
+Parameters:
+  lat, lon coordinates of the location of your interest
+  type type of the call, keep this parameter in the API call as 'hour'
+  start start date (unix time, UTC time zone), e.g. start=1369728000
+  end end date (unix time, UTC time zone), e.g. end=1369789200
+  cnt amount of returned data (one per hour, can be used instead of 'end') *
+
+return:
+{"message":"","cod":"200","type":"tick","station_id":39419,"cnt":30,
+"list":[
+{"dt":1345291920,
+"main":{"temp":291.55,"humidity":95,"pressure":1009.3},
+"wind":{"speed":0,"gust":0.3},
+"rain":{"1h":0.6,"today":2.7},
+"calc":{"dewpoint":17.6} }
+]}
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </td>
+</tr>
+        </table>
+
+
+
+
+
+        <table class="summary table table-bordered table-responsive table-striped" id="properties">
+            <tr><th colspan="3">Properties Summary</th></tr>
+<tr id="$META_WEATHER">
+    <td class="attributes">
+        <code class="keyword">
+            public 
+
+            
+        </code>
+    </td>
+
+    <td class="name">
+        <code>
+            <a href="source-class-EventPostWeather.html#18" class="property-name">$META_WEATHER</a>
+        </code>
+        <div class="description">
+            
+
+        </div>
+    </td>
+    <td class="value">
+        <div>
+            <a href="#$META_WEATHER" class="anchor pull-right">#</a>
+            <code><span class="php-keyword1">NULL</span></code>
+        </div>
+    </td>
+</tr>
+<tr id="$api_key">
+    <td class="attributes">
+        <code class="keyword">
+            public 
+
+            
+        </code>
+    </td>
+
+    <td class="name">
+        <code>
+            <a href="source-class-EventPostWeather.html#20" class="property-name">$api_key</a>
+        </code>
+        <div class="description">
+            
+
+        </div>
+    </td>
+    <td class="value">
+        <div>
+            <a href="#$api_key" class="anchor pull-right">#</a>
+            <code><span class="php-keyword1">NULL</span></code>
+        </div>
+    </td>
+</tr>
+<tr id="$units">
+    <td class="attributes">
+        <code class="keyword">
+            public 
+
+            
+        </code>
+    </td>
+
+    <td class="name">
+        <code>
+            <a href="source-class-EventPostWeather.html#21" class="property-name">$units</a>
+        </code>
+        <div class="description">
+            
+
+        </div>
+    </td>
+    <td class="value">
+        <div>
+            <a href="#$units" class="anchor pull-right">#</a>
+            <code><span class="php-keyword1">NULL</span></code>
+        </div>
+    </td>
+</tr>
+<tr id="$unit_names">
+    <td class="attributes">
+        <code class="keyword">
+            public 
+
+            
+        </code>
+    </td>
+
+    <td class="name">
+        <code>
+            <a href="source-class-EventPostWeather.html#22" class="property-name">$unit_names</a>
+        </code>
+        <div class="description">
+            
+
+        </div>
+    </td>
+    <td class="value">
+        <div>
+            <a href="#$unit_names" class="anchor pull-right">#</a>
+            <code><span class="php-keyword1">NULL</span></code>
+        </div>
+    </td>
+</tr>
+<tr id="$theme">
+    <td class="attributes">
+        <code class="keyword">
+            public 
+
+            
+        </code>
+    </td>
+
+    <td class="name">
+        <code>
+            <a href="source-class-EventPostWeather.html#23" class="property-name">$theme</a>
+        </code>
+        <div class="description">
+            
+
+        </div>
+    </td>
+    <td class="value">
+        <div>
+            <a href="#$theme" class="anchor pull-right">#</a>
+            <code><span class="php-keyword1">NULL</span></code>
+        </div>
+    </td>
+</tr>
+        </table>
+
+
+    <div id="footer">
+        Generated by <a href="https://github.com/apigen/apigen">ApiGen</a>
+    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="resources/jquery-3.2.1.min.js"></script>
+        <script src="resources/jquery-ui-1.12.1.min.js"></script>
+
+        <script src="elementlist.js"></script>
+        <script src="resources/main.js"></script>
+    </body>
+</html>
+
+
