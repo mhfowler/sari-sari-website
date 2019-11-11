@@ -37,6 +37,7 @@ a.footer-link:hover {
 .footer {
 	position: absolute;
 	top: 85%;
+	width: 100%;
 }
 
 h2 {
@@ -54,6 +55,10 @@ h2 {
 
 .left-column, .right-column {
 	width: 50%;
+	float: left;
+}
+.left-column {
+	min-width: 400px;
 }
 
 
@@ -69,18 +74,24 @@ h2 {
 
 .hero-image {
 	/*margin-top: 45px;*/
+	background-color: rgb(227, 57, 131);
 	margin-bottom: 40px;
 	width: 250px;
 	height: 13em;
-	-webkit-transition: all 3s ease-in-out;
-	-moz-transition: all 3s ease-in-out;
-	-o-transition: all 3s ease-in-out;
-	-ms-transition: all 3s ease-in-out;
-	transition: all 3s ease-in-out;
 	/*float: left;*/
 	margin-right: 35px;
 }
 
 body {
 	background-color: blue;
+}
+
+@media (max-width: 600px) {
+	.footer {
+		position: relative;
+		margin-top: 30px;
+	}
+	.hero-image {
+		margin-top: 20px;
+	}
 }
