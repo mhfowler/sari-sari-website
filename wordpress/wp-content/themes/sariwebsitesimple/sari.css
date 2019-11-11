@@ -7,7 +7,6 @@
 }
 
 body {
-
 	line-height: 20px;
 	color: #937D63;
 	margin: 3em 5em;
@@ -58,7 +57,8 @@ h2 {
 	float: left;
 }
 .left-column {
-	min-width: 400px;
+	/*min-width: 400px;*/
+	max-width: 100%;
 }
 
 
@@ -86,7 +86,7 @@ body {
 	background-color: blue;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	.footer {
 		position: relative;
 		margin-top: 30px;
@@ -103,5 +103,9 @@ body {
 	}
 	body {
 		margin-left: 30px;
+	}
+	.event-title {
+		/*float:left;*/
+		/*width:100%;*/
 	}
 }
