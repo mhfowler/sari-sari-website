@@ -43,6 +43,10 @@ h2 {
 	margin-bottom: 2em;
 }
 
+.events-feed {
+	max-width: 470px;
+}
+
 .title {
 	width: 100%;
 	align-self: stretch;
