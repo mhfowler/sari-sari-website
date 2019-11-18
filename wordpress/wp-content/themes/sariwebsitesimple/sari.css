@@ -36,7 +36,8 @@ a.footer-link:hover {
 .footer {
 	position: absolute;
 	top: 85%;
-	width: 100%;
+    max-width: 400px;
+    width: 100%;
 }
 
 h2 {
